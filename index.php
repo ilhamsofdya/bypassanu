@@ -1,5 +1,5 @@
 <?php
-$path = "https://api.telegram.org/bot5355398612:AAHtMgc6a-0gGR4U4uByVYU13a3rQqbe03k;
+$path = "https://api.telegram.org/bot5355398612:AAHtMgc6a-0gGR4U4uByVYU13a3rQqbe03k/setwebhook?url=https://bypassanu.herokuapp.com/index.php;
 
 $update = json_decode(file_get_contents("php://input"), TRUE);
 
